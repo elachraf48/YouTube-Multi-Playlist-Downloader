@@ -32,33 +32,30 @@ A powerful PyQt5-based desktop application for downloading multiple YouTube play
    cd youtube-multi-playlist-downloader
 Install dependencies:
 
-bash
 pip install -r requirements.txt
 Method 2: Direct download
 Download the youtube_downloader.py file
 
 Install required packages:
 
-bash
 pip install PyQt5 yt-dlp pyyaml
 FFmpeg Installation
 Windows:
 
-bash
 winget install Gyan.FFmpeg.Essentials
 Linux (Ubuntu/Debian):
 
-bash
+
 sudo apt update
 sudo apt install ffmpeg
 macOS:
 
-bash
+
 brew install ffmpeg
 🚀 Usage
 Launch the application:
 
-bash
+
 python youtube_downloader.py
 Interface Overview:
 
@@ -91,7 +88,7 @@ Copy the URL from the address bar
 
 The URL should contain list= parameter:
 
-text
+
 https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxxxxxx
 🛠️ Technical Details
 Dependencies
@@ -102,7 +99,6 @@ yt-dlp: YouTube video downloading backend
 PyYAML: Configuration file handling
 
 Project Structure
-text
 youtube-multi-playlist-downloader/
 │
 ├── youtube_downloader.py    # Main application file
@@ -146,12 +142,10 @@ Application crashes:
 
 Ensure all dependencies are installed:
 
-bash
 pip install -r requirements.txt
 Debug Mode
 For detailed error information, run with debug output:
 
-bash
 python youtube_downloader.py --debug
 📋 Requirements
 Python 3.7+
@@ -176,7 +170,6 @@ Push to the branch: git push origin feature/amazing-feature
 Open a Pull Request
 
 Development Setup
-bash
 # Clone the repository
 git clone https://github.com/your-username/youtube-multi-playlist-downloader.git
 
@@ -232,7 +225,7 @@ PyQt5 for the GUI framework
 
 ⭐ If you find this project useful, please give it a star on GitHub!
 
-text
+
 
 This README.md file includes:
 
